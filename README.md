@@ -27,7 +27,7 @@ To allow the macro to run correctly, you need to enable some VBA libraries:
 3. Click **OK**.
 
 
-### **2️⃣ Open the Outlook VBA Editor**
+### **3️⃣ Open the Outlook VBA Editor**
 1. Press `Alt + F11` to open **Outlook's VBA Editor**.
 2. In the VBA editor, go to **Insert → Module**.
 3. **Create three modules** and name them exactly:
