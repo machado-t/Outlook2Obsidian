@@ -24,8 +24,6 @@ To allow the macro to run correctly, you need to enable some VBA libraries:
 2. Find and enable:
    - ✅ **Microsoft Forms 2.0 Object Library**
    - ✅ **Microsoft VBScript Regular Expressions 5.5**
-3. Click **OK**.
-
 
 ### **3️⃣ Open the Outlook VBA Editor**
 1. Press `Alt + F11` to open **Outlook's VBA Editor**.
@@ -35,12 +33,19 @@ To allow the macro to run correctly, you need to enable some VBA libraries:
    - `SaveUtilities`
    - `USER_CONFIG`
 4. Copy and paste the corresponding `.vb` file contents into each module.
-5. Modify the **vault path** in `USER_CONFIG.vb` to match your Obsidian setup.
+5. Modify the **vault path** in `USER_CONFIG.vb` to match your Obsidian setup:
 
 ```vb
 vaultPathToSaveFileTo = "C:\Users\YourUsername\Obsidian\Vault\Emails\"
 ```
 Make sure the path ends with a backslash.
+
+## ⚠️ Limitations
+
+- No Attachment Support: This macro does not currently save or link email attachments.
+- No Meeting / Calendar Support: It only works with standard mail items (Class = 43). Meetings or calendar invites are not handled.
+- Outlook Desktop on Windows Only: Tested only on Windows versions of Outlook with VBA. Other platforms (Mac, Outlook Web) don’t support these VBA macros.
+- Conversation-View Stack: You must select an individual email rather than a conversation stack.
 
 ## 🔗 Credits
 
