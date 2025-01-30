@@ -40,7 +40,7 @@ To allow the macro to run correctly, you need to enable some VBA libraries:
 ```vb
 vaultPathToSaveFileTo = "C:\Users\YourUsername\Obsidian\Vault\Emails\"
 ```
-Make sure the path ends with a backslash (\).
+Make sure the path ends with a backslash.
 
 ## 🔗 Credits
 
