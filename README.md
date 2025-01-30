@@ -42,6 +42,9 @@ vaultPathToSaveFileTo = "C:\Users\YourUsername\Obsidian\Vault\Emails\"
 ```
 Make sure the path ends with a backslash (\).
 
+## 🔗 Credits
+
+This project builds upon Obsidian-For-Business by @tallguyjenks.
 
 
 
