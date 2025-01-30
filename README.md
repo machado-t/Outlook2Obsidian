@@ -9,8 +9,6 @@ This project automates saving Outlook emails as **Markdown notes** in an **Obsid
 ✅ **Automatically opens** the newly created note in **Obsidian**  
 
 
----
-
 ## 📂 Installation
 To install and use the macro, follow these steps:
 
